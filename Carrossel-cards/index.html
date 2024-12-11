@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrossel-cards</title>
+    <!-- Link do CSS do Swiper (biblioteca de slides) -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>
+      <span>B</span>
+      <span class="espaco">y</span>
+      <span>B</span>
+      <span>e</span>
+      <span>n</span>
+      <span>i</span>
+      <span>n</span>
+      <span>i</span>
+      <span>.</span>
+      <span>.</span>
+      <span>.</span>
+    </h1>
+    <section>
+      <!-- Container do Swiper -->
+      <div class="swiper mySwiper container">
+        <!-- Elemento que conterá os cards -->
+        <div class="swiper-wrapper content" id="card-container">
+          <!-- Os cards serão gerados dinamicamente aqui -->
+        </div>
+      </div>   
+
+      <!-- Botões de navegação do Swiper -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <!-- Paginação do Swiper -->
+      <div class="swiper-pagination"></div>
+    </section>
+
+    <!-- Importação do script do Swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Importação do script personalizado -->
+    <script src="script.js"></script>
+  </body>
+</html>
